@@ -17,6 +17,6 @@ describe("Gilded Rose", function () {
 
     const gildedRose = new Shop(items);
     const updatedItems = gildedRose.updateQuality();
-    expect(updatedItems[0].name).toBe("fixme");
+    expect(updatedItems[0].name).toBe("Change");
   });
 });
